@@ -15,7 +15,7 @@ const past: BadgePreset = {
 export default defineConfig({
   tiers: [
     {
-      title: 'Past Sponsors',
+      title: 'Past Sponsors and Backers',
       monthlyDollars: -1,
       preset: past,
     },
