@@ -26,27 +26,27 @@ export default defineConfig({
     {
       title: 'Silver Backers',
       monthlyDollars: 6,
-      preset: tierPresets.base,
+      preset: tierPresets.small,
     },
     {
       title: 'Gold Backers',
       monthlyDollars: 10,
-      preset: tierPresets.medium,
+      preset: tierPresets.base,
     },
     {
       title: 'Bronze Sponsors',
       monthlyDollars: 20,
-      preset: tierPresets.large,
+      preset: tierPresets.medium,
     },
     {
       title: 'Silver Sponsors',
       monthlyDollars: 50,
-      preset: tierPresets.large,
+      preset: tierPresets.medium,
     },
     {
       title: 'Gold Sponsors',
       monthlyDollars: 100,
-      preset: tierPresets.xl,
+      preset: tierPresets.large,
     },
   ],
 
