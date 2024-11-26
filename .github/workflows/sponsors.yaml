@@ -37,6 +37,6 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           message: 'chore: update sponsors.svg [ci skip]'
-          add: "public/sponsors/sponsors.*"
+          add: "docs/sponsors/sponsors.*"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

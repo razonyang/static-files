@@ -101,7 +101,7 @@ export default defineConfig({
     )
   },
 
-  outputDir: 'public/sponsors',
+  outputDir: 'docs/sponsors',
   formats: ['svg', 'png'],
 
   renders: [
